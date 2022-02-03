@@ -6,7 +6,8 @@
   "scripts": {
     "watch": "npx tsc -w",
     "lint": "eslint . --ext .ts",
-    "defs": "node ./updateDefs.js"
+    "defs": "node ./updateDefs.js",
+    "clean": "rm -rf dist/*"
   },
   "repository": {
     "type": "git",

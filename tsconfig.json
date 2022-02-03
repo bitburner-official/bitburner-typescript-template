@@ -2,7 +2,7 @@
   "include": [
     "NetscriptDefinitions.d.ts",
     "global.d.ts",
-    "src/**/*",
+    "src/**/*"
   ],
   "compilerOptions": {
     "module": "esnext",
