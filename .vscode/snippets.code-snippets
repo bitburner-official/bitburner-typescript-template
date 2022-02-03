@@ -4,10 +4,10 @@
     "prefix": "template",
     "body": [
       "import { NS } from '@ns';",
-      "import { CONSTANTS } as C from '/Constants';",
+      "import { CONSTANTS } from '/lib/Constants';",
       "",
       "export async function main(ns : NS) : Promise<void> {",
-      "\t//",
+      "\t //",
       "}"
     ]
   },
@@ -23,15 +23,15 @@
     "description": "autocomplete"
   },
   "flags": {
-      "scope": "typescript",
-      "prefix": "flags",
-      "body": [
-        "const flags = ns.flags(_.concat(CONSTANTS.ARGS, []));",
-        "",
-        "if (flags.d || flags['debug']) {",
-        "   ns.tail();",
-        "}"
-      ],
-      "description": "flags"
+    "scope": "typescript",
+    "prefix": "flags",
+    "body": [
+      "\tconst flags = ns.flags(_.concat(CONSTANTS.ARGS, []));",
+      "",
+      "\tif (flags.d || flags['debug']) {",
+      "\t\tns.tail();",
+      "\t}"
+    ],
+    "description": "flags"
   }
 }
