@@ -5,6 +5,7 @@
     "src/**/*",
   ],
   "compilerOptions": {
+    "jsx": "react",
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "node",

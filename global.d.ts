@@ -1,10 +1,14 @@
 import _ from 'lodash'
 import * as bitburner from "./NetscriptDefinitions";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 export { };
 
 declare global {
     const _: typeof _
+    const React: typeof React
+    const ReactDOM: typeof ReactDOM
     
     interface NS extends bitburner.NS {}
 
