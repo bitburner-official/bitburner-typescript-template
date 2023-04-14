@@ -1,7 +1,7 @@
 const https = require("https")
 const fs = require("fs")
 
-const url = 'https://raw.githubusercontent.com/danielyxie/bitburner/dev/src/ScriptEditor/NetscriptDefinitions.d.ts'
+const url = 'https://raw.githubusercontent.com/bitburner-official/bitburner-src/dev/src/ScriptEditor/NetscriptDefinitions.d.ts'
 const path = './NetscriptDefinitions.d.ts'
 
 https.get(url, (res) => {

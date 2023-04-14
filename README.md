@@ -55,7 +55,7 @@ To import `someFunction` from the file `main.ts` located in the `src/` directory
 import { someFunction } from 'main'
 ```
 
-## Deugging
+## Debugging
 
 For debugging bitburner on Steam you will need to enable a remote debugging port. This can be done by rightclicking bitburner in your Steam library and selecting properties. There you need to add `--remote-debugging-port=9222` [Thanks @DarkMio]
 
